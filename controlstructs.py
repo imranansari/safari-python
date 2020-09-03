@@ -34,3 +34,9 @@ print(type(x))
 for v in x:
     print(v)
 
+print("-------------")
+
+x = 3
+
+y = "small" if x < 10 else "larger"  # same as ? :
+print(y)
